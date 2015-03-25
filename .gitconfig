@@ -1,0 +1,9 @@
+[user]
+	email = phowell@cothm.org
+	name = Phillip Howell
+[alias]
+	st = status
+	onelog = log --oneline -1
+	diffw = diff -w
+[push]
+	default = simple

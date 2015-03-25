@@ -1,0 +1,8 @@
+<?xml version="1.0"?>
+<gconf>
+	<entry name="history-fileentry" mtime="1426317636" type="list" ltype="string">
+		<li type="string">
+			<stringvalue>/home/vagrant/src/xl/Cpp/platform/posix/Thread.cpp.REMOTE.25898.cpp</stringvalue>
+		</li>
+	</entry>
+</gconf>
