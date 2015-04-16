@@ -1,0 +1,9 @@
+
+# zsh functon path
+
+fpath=(~/bin/prompt $fpath)
+
+autoload -U compinit promptinit
+compinit
+promptinit
+prompt gentoo
