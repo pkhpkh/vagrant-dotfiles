@@ -30,8 +30,8 @@ src
 .config/sublime-text-3/Packages/ssl-linux/
 ".config/sublime-text-3/Packages/User/Package Control.last-run"
 ".config/sublime-text-3/Packages/User/Package Control.cache"
-".config/sublime-text-3/Packages/User/Package Control.merged-ca-bundle"
-".config/sublime-text-3/Packages/User/Package Control.user-ca-bundle"
+.config/sublime-text-3/Packages/User/Package Control.merged-ca-bundle
+.config/sublime-text-3/Packages/User/Package Control.user-ca-bundle
 
 .config/unity/
 .config/user-dirs.dirs
