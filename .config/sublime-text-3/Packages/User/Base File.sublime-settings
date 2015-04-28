@@ -1,0 +1,46 @@
+{
+	"auto_complete_commit_on_tab": true,
+	"auto_match_enabled": true,
+	"color_scheme": "Packages/Color Scheme - Default/Zenburnesque Dark - Linty.tmTheme",
+	"default_line_ending": "unix",
+	"end_of_list": true,
+	"ensure_newline_at_eof_on_save": true,
+	"font_face": "Consolas",
+	"font_size": 14,
+	"rulers":
+	[
+		100
+	],
+	"translate_tabs_to_spaces": true,
+	"trim_trailing_white_space_on_save": true,
+	"word_separator": "./\\()\"'-:,.;<>~!@#$%^&*|+=[]{}`~?",
+
+
+    "sublimelinter_executable_map":
+    {
+        "javascript": "C:\\Program Files (x86)\\nodejs\\node.exe"
+    },
+    "sublimelinter_gutter_marks": true,
+    "pep8_ignore":
+    [
+        "E501",
+        "E303",
+        "E302",
+        "E401",
+        "W293"
+    ],
+    "jshint_options":
+    {
+        "regexdash": true,
+        "browser": true,
+        "sub": true,
+        "curly": true,
+        "eqeqeq": true,
+        "forin": true,
+        "immed": true,
+        "latedef": true,
+        "undef": true,
+        "laxbreak": true,
+        "glorble": true 
+    }
+}

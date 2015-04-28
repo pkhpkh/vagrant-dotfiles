@@ -1,0 +1,62 @@
+{
+	"auto_complete_commit_on_tab": true,
+	"auto_match_enabled": true,
+	"color_scheme": "Packages/User/Zenburnesque Dark - Linty (SL).tmTheme",
+	"default_line_ending": "unix",
+	"detect_indentation": false,
+	"detect_slow_plugins": false,
+	"end_of_list": true,
+	"ensure_newline_at_eof_on_save": true,
+	"file_exclude_patterns":
+	[
+		"*.pyc",
+		"*.pyo",
+		"*.exe",
+		"*.dll",
+		"*.obj",
+		"*.o",
+		"*.a",
+		"*.lib",
+		"*.so",
+		"*.dylib",
+		"*.ncb",
+		"*.sdf",
+		"*.suo",
+		"*.pdb",
+		"*.idb",
+		".DS_Store",
+		"*.pdf",
+		"*.class"
+	],
+	"folder_exclude_patterns":
+	[
+		".svn",
+		".git",
+		".hg",
+		"CVS",
+		"code_generated",
+		"*build"
+	],
+	"font_face": "Source Code Pro Light",
+	"font_size": 15,
+	"ignored_packages":
+	[
+		"SublimeREPL",
+		"PowerShell",
+		"TrailingSpaces",
+		"Browser Refresh",
+		"Shell Turtlestein",
+		"BracketHighlighter",
+		"Vintage"
+	],
+	"overlay_scroll_bars": "enabled",
+	"rulers":
+	[
+		100
+	],
+	"spell_check": true,
+	"tab_completion": true,
+	"tab_size": 4,
+	"translate_tabs_to_spaces": true,
+	"word_separator": "./\\()\"'-:,.;<>~!@#$%^&*|+=[]{}`~?"
+}

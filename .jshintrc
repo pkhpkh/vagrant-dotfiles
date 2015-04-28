@@ -1,0 +1,16 @@
+{
+    "browser": true,
+    "node": true,
+    "curly": false,
+    "eqeqeq": true,
+    "forin": false,
+    "immed": true,
+    "latedef": true,
+    "laxbreak": true,
+    "regexdash": true,
+    "sub": true,
+    "trailing": false,
+    "undef": true,
+    "strict": false,
+    "multistr": true
+}

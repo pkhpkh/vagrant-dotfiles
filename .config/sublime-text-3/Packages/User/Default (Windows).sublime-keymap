@@ -1,0 +1,67 @@
+[
+    { "keys": ["ctrl+x", "ctrl+s"], "command": "save" },
+
+
+//    { "keys": ["tab"], "command": "reindent" },
+//    { "keys": ["tab"], "command": "indent", "context": 
+//        [{ "key": "new_line_in_selection", "operator": "equal", "operand": false }]
+//    },
+
+
+    //  Searching 
+    //
+    { "keys": ["ctrl+s"], "command": "show_panel", "args": { "panel": "incremental_find", "reverse": false } },
+    { "keys": ["ctrl+r"], "command": "show_panel", "args": { "panel": "incremental_find", "reverse": true } },
+    { "keys": ["ctrl+shift+p"], "command": "show_panel", "args": {"panel": "find_in_files"} },
+    { "keys": ["ctrl+o"], "command": "show_overlay", "args": {"overlay": "command_palette"} },
+    { "keys": ["shift+ctrl+5"], "command": "show_panel", "args": { "panel": "replace" } },
+
+    { "keys": ["ctrl+s"], "command": "find_under", "context": 
+        [{ "key": "selection_empty", "operator": "equal", "operand": false, "match_all": true }]
+    },
+    { "keys": ["ctrl+r"], "command": "find_under_prev", "context":
+        [{ "key": "selection_empty", "operator": "equal", "operand": false, "match_all": true }]
+    },
+    { "keys": ["ctrl+\\"], "command": "insert_best_completion", "args": {"default": "\t", "exact": true} },
+    { "keys": ["ctrl+\\"], "command": "insert_best_completion", "args": {"default": "\t", "exact": false},
+        "context":
+        [
+            { "key": "setting.tab_completion", "operator": "equal", "operand": true }
+        ]
+    },
+
+    //  Text manipulation 
+    //
+    // { "keys": ["ctrl+backslash"], "command": "auto_complete" }
+    { "keys": ["ctrl+k"], "command": "run_macro_file", "args": {"file": "Packages/User/kill-to-end-of-line.sublime-macro"} },
+    { "keys": ["escape", "backspace"], "command": "delete_word", "args": { "forward": false } },
+
+    //  View movement 
+    //
+    { "keys": ["alt+right"], "command": "next_view" },
+    { "keys": ["alt+left"], "command": "prev_view" },
+
+    /// 
+    /// Packages
+    /// 
+
+    // Browser refresh
+    //
+    {
+        "keys": ["ctrl+shift+r"], "command": "browser_refresh", "args": {
+            "auto_save": true,
+            "delay": 0.1,
+            "activate_browser": true,
+            "browser_name" : "Google Chrome"
+        }
+    },
+    {
+        "keys": ["alt+m"], 
+        "command": "markdown_preview", 
+        "args": {
+            "target": "browser", 
+            "parser": "markdown"
+        }
+    }
+
+]

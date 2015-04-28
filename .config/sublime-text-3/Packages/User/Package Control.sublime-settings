@@ -1,0 +1,31 @@
+{
+	"auto_upgrade_last_run": null,
+	"in_process_packages":
+	[
+	],
+	"installed_packages":
+	[
+		"Alignment",
+		"BracketHighlighter",
+		"Browser Refresh",
+		"ColorPicker",
+		"Colorsublime",
+		"DocBlockr",
+		"Git",
+		"Github Tools",
+		"JSONLint",
+		"JsonTree",
+		"Markdown Preview",
+		"Package Control",
+		"PowerShell",
+		"Pretty JSON",
+		"Shell Turtlestein",
+		"sublime-github",
+		"SublimeLinter",
+		"SublimeLinter-csslint",
+		"SublimeLinter-jshint",
+		"SublimeLinter-json",
+		"SublimeREPL",
+		"TrailingSpaces"
+	]
+}
