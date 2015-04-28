@@ -1,0 +1,5 @@
+
+# So we don't do anything stupid.
+#
+.ssh
+src
