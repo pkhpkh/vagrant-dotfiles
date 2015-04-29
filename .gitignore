@@ -46,3 +46,8 @@ src
 
 %gconf.xml
 
+.config/hub
+.gem
+.mozilla
+.lesshst
+tmp
