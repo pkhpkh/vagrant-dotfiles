@@ -1,0 +1,39 @@
+# ~/.tmuxinator/base.yml
+
+name: base
+root: ~/
+
+# Optional tmux socket
+# socket_name: foo
+
+# Runs before everything. Use it to start daemons etc.
+# pre: sudo /etc/rc.d/mysqld start
+
+# Runs in each window and pane before window/pane specific commands. Useful for setting up interpreter versions.
+# pre_window: rbenv shell 2.0.0-p247
+
+# Pass command line options to tmux. Useful for specifying a different tmux.conf.
+# tmux_options: -f ~/.tmux.mac.conf
+
+# Change the command to call tmux.  This can be used by derivatives/wrappers like byobu.
+# tmux_command: byobu
+
+windows:
+  - shells:
+      layout: f765,166x58,0,0{60x58,0,0[60x18,0,0,0,60x20,0,19,2,60x18,0,40,3],105x58,61,0[105x29,61,0,1,105x28,61,30,4]}
+      panes:
+        - #empty
+        - #empty
+        - #empty
+        - #empty
+        - #empty
+  # - lighttpd-logs:
+  #       layout: main-horizontal
+  #       panes:
+  #           - tail -f ~/src/vtree/master/build-internal/lighttpd/apps/master/error.log
+  #           - tail -f ~/src/vtree/master/build-internal/lighttpd/apps/master/access.log
+  - irc:
+        layout: main-horizontal
+        panes:
+            - irc
+
