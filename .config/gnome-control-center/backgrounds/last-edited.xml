@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+<!DOCTYPE wallpapers SYSTEM "gnome-wp-list.dtd">
+<wallpapers>
+  <wallpaper>
+    <name>Horizontal Gradient</name>
+    <filename>(none)</filename>
+    <options>none</options>
+    <shade_type>horizontal</shade_type>
+    <pcolor>#2c001e</pcolor>
+    <scolor>#5c5c35356666</scolor>
+  </wallpaper>
+</wallpapers>

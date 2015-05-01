@@ -43,11 +43,11 @@
 	[
 		"SublimeREPL",
 		"PowerShell",
-		"TrailingSpaces",
 		"Browser Refresh",
 		"Shell Turtlestein",
-		"BracketHighlighter",
-		"Vintage"
+		"Vintage",
+		"TrailingSpaces",
+		"BracketHighlighter"
 	],
 	"overlay_scroll_bars": "enabled",
 	"rulers":
