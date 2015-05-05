@@ -19,7 +19,7 @@
                 "@disable": false,
                 "args": [
                     "--config",
-                    "~/.jshintrc"
+                    "${home}/.jshintrc"
                 ],
                 "excludes": []
             },
@@ -36,9 +36,7 @@
         "paths": {
             "linux": [],
             "osx": [],
-            "windows": [
-                "H:\\src\\vtree\\pdm\\build-internal\\support-bin"
-            ]
+            "windows": []
         },
         "python_paths": {
             "linux": [],
