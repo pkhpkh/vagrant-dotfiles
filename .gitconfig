@@ -7,3 +7,7 @@
 	diffw = diff -w
 [push]
 	default = simple
+[diff]
+	tool = meld
+[difftool]
+	prompt = false
