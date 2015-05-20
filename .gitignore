@@ -5,6 +5,10 @@
 src
 *.pid
 
+# Un-ignore ssh config
+#
+!.ssh/config
+
 .ICEauthority
 .Xauthority
 .bash_history
