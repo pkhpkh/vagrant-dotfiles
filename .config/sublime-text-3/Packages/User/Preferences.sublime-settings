@@ -1,4 +1,16 @@
 {
+	"added_words":
+	[
+		"chronogram",
+		"cpe",
+		"js",
+		"html",
+		"exformat",
+		"cancelled",
+		"gauge",
+		"locator",
+		"param"
+	],
 	"auto_complete_commit_on_tab": true,
 	"auto_match_enabled": true,
 	"color_scheme": "Packages/User/Zenburnesque Dark - Linty (SL).tmTheme",
@@ -7,6 +19,37 @@
 	"detect_slow_plugins": false,
 	"end_of_list": true,
 	"ensure_newline_at_eof_on_save": true,
+	"extra_file_exclude_patterns":
+	[
+		"*.pyc",
+		"*.pyo",
+		"*.exe",
+		"*.dll",
+		"*.obj",
+		"*.o",
+		"*.a",
+		"*.lib",
+		"*.so",
+		"*.dylib",
+		"*.ncb",
+		"*.sdf",
+		"*.suo",
+		"*.pdb",
+		"*.idb",
+		".DS_Store",
+		"*.pdf",
+		"*.class"
+	],
+	"extra_folder_exclude_patterns":
+	[
+		".svn",
+		".git",
+		".hg",
+		"CVS",
+		"code_generated",
+		"*build",
+		"gendocs"
+	],
 	"file_exclude_patterns":
 	[
 		"*.pyc",
@@ -35,19 +78,23 @@
 		".hg",
 		"CVS",
 		"code_generated",
-		"*build"
+		"*build",
+		"/home/vagrant/src/xl/test_debug_build",
+		"/home/vagrant/src/xl/pru/obj",
+		"/home/vagrant/src/xl/main_bbb-debug_build",
+		"/home/vagrant/src/xl/main_debug_build",
+		"gendocs"
 	],
 	"font_face": "Source Code Pro Light",
-	"font_size": 15,
+	"font_size": 13,
 	"ignored_packages":
 	[
-		"SublimeREPL",
-		"PowerShell",
+		"BracketHighlighter",
 		"Browser Refresh",
+		"PowerShell",
 		"Shell Turtlestein",
-		"Vintage",
-		"TrailingSpaces",
-		"BracketHighlighter"
+		"SublimeREPL",
+		"Vintage"
 	],
 	"overlay_scroll_bars": "enabled",
 	"rulers":
@@ -57,6 +104,7 @@
 	"spell_check": true,
 	"tab_completion": true,
 	"tab_size": 4,
+	"theme": "Soda Dark 3.sublime-theme",
 	"translate_tabs_to_spaces": true,
 	"word_separator": "./\\()\"'-:,.;<>~!@#$%^&*|+=[]{}`~?"
 }

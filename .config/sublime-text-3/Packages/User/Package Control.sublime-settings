@@ -1,24 +1,32 @@
 {
 	"auto_upgrade_last_run": null,
+	"bootstrapped": true,
 	"in_process_packages":
 	[
 	],
 	"installed_packages":
 	[
 		"Alignment",
+		"AlignTab",
 		"BracketHighlighter",
 		"Browser Refresh",
 		"ColorPicker",
 		"Colorsublime",
+		"Cucumber",
 		"DocBlockr",
 		"Git",
+		"GitGutter",
 		"Github Tools",
+		"Gitignored File Excluder",
 		"JSONLint",
 		"JsonTree",
+		"MarkAndMove",
 		"Markdown Preview",
 		"Package Control",
 		"PowerShell",
+		"Predawn",
 		"Pretty JSON",
+		"SCSS",
 		"Shell Turtlestein",
 		"sublime-github",
 		"SublimeLinter",
@@ -26,6 +34,10 @@
 		"SublimeLinter-jshint",
 		"SublimeLinter-json",
 		"SublimeREPL",
+		"Theme - Flatland",
+		"Theme - Soda",
+		"Theme - Sodarized",
+		"Themes Menu Switcher",
 		"TrailingSpaces"
 	]
 }

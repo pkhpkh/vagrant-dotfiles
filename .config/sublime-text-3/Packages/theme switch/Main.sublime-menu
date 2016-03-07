@@ -1,0 +1,96 @@
+[
+    {
+        "children": [
+            {
+                "caption": "Themes", 
+                "children": [
+                    {
+                        "caption": "Theme - Sodarized", 
+                        "children": [
+                            {
+                                "args": {
+                                    "name": "Sodarized Dark.sublime-theme"
+                                }, 
+                                "caption": "Sodarized Dark", 
+                                "command": "themeswitch"
+                            }, 
+                            {
+                                "args": {
+                                    "name": "Sodarized Light.sublime-theme"
+                                }, 
+                                "caption": "Sodarized Light", 
+                                "command": "themeswitch"
+                            }, 
+                            {
+                                "args": {
+                                    "name": "Sodarized Dark 3.sublime-theme"
+                                }, 
+                                "caption": "Sodarized Dark 3", 
+                                "command": "themeswitch"
+                            }, 
+                            {
+                                "args": {
+                                    "name": "Sodarized Light 3.sublime-theme"
+                                }, 
+                                "caption": "Sodarized Light 3", 
+                                "command": "themeswitch"
+                            }
+                        ]
+                    }, 
+                    {
+                        "caption": "Theme - Soda", 
+                        "children": [
+                            {
+                                "args": {
+                                    "name": "Soda Dark 3.sublime-theme"
+                                }, 
+                                "caption": "Soda Dark 3", 
+                                "command": "themeswitch"
+                            }, 
+                            {
+                                "args": {
+                                    "name": "Soda Light.sublime-theme"
+                                }, 
+                                "caption": "Soda Light", 
+                                "command": "themeswitch"
+                            }, 
+                            {
+                                "args": {
+                                    "name": "Soda Light 3.sublime-theme"
+                                }, 
+                                "caption": "Soda Light 3", 
+                                "command": "themeswitch"
+                            }, 
+                            {
+                                "args": {
+                                    "name": "Soda Dark.sublime-theme"
+                                }, 
+                                "caption": "Soda Dark", 
+                                "command": "themeswitch"
+                            }
+                        ]
+                    }, 
+                    {
+                        "caption": "Theme - Flatland", 
+                        "children": [
+                            {
+                                "args": {
+                                    "name": "Flatland Dark.sublime-theme"
+                                }, 
+                                "caption": "Flatland Dark", 
+                                "command": "themeswitch"
+                            }
+                        ]
+                    }, 
+                    {
+                        "caption": "Refresh Theme Cache", 
+                        "command": "refreshthemes"
+                    }
+                ], 
+                "id": "themes", 
+                "mnemonic": "t"
+            }
+        ], 
+        "id": "preferences"
+    }
+]
