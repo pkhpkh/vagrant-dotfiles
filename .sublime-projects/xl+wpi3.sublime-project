@@ -1,0 +1,14 @@
+{
+	"folders":
+	[
+		{
+			"path": "/home/vagrant/src/wpi3"
+		},
+		{
+			"path": "/home/vagrant/src/xl"
+		},
+        {
+            "path": "/home/vagrant/src/test"
+        }
+	]
+}

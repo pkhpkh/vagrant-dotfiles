@@ -1,0 +1,25 @@
+{
+    "working_dir": "/home/vagrant/src/xl",
+    "shell_cmd": "sudo make -j8 xl",
+    "file_regex": "^([^:\n]+):([^:]+):([^:]+): (.*)$",
+
+    "variants": [
+        {
+            "name": "upgrade",
+            "shell_cmd": "sudo make -j8 upgrade",
+        },
+        {
+            "name": "deploy",
+            "shell_cmd": "sudo make -j8 deploy",
+        },
+        {
+            "name": "test",
+            "shell_cmd": "sudo make -j8 test",
+        },
+        {
+            "name": "start",
+            "shell_cmd": "sudo make -j8 start",
+        }
+    ]
+}
+

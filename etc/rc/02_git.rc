@@ -1,0 +1,8 @@
+
+function branch-heads {
+    for i in `git branch | sed 's/\*/ /' | xargs echo`
+    do 
+        echo -n "$i - "
+        git onelog $i | cat
+    done
+}

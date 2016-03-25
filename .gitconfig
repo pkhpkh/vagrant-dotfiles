@@ -11,3 +11,6 @@
 	tool = meld
 [difftool]
 	prompt = false
+[core]
+	editor = subl -w
+	pager = less -F -X -E
